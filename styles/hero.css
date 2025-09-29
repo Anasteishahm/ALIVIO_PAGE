@@ -5,7 +5,7 @@
 }
 
 .hero__content {
-    margin-top: 180px 0 0 0;
+    padding: 180px 0 0 0;
     max-width: 420px;
     display: flex;
     flex-direction: column;
@@ -29,4 +29,26 @@
 .hero__content .btn {
     width: 230px;
     height: 65px;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 700px;
+    }
+
+    .hero__content {
+        padding: 80px 0 0 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero__title {
+        font-size: 45px;
+        max-width: 350px;
+    }
+
+    .hero {
+        background: linear-gradient(180deg, rgba(245, 246, 252, 0.52), rgba(255, 176, 139, 0.28)),
+    url("../webp/hero_bg.webp") 60% 50% / cover no-repeat;
+    }
 }

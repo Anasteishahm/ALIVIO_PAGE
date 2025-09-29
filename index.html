@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+          rel="stylesheet">
     <link rel="icon" href="./assets/Favicon.png" type="image/png">
     <link rel="stylesheet" href="index.css">
     <title>Alivio</title>
@@ -45,12 +46,33 @@
 </header>
 
 <main>
-    <section class="hero">
+    <section class="hero" aria-label="hero section">
         <div class="container">
             <div class="hero__content">
                 <h1 class="hero__title">Be aware, Manage well.</h1>
-                <p class="hero__desc">Everyone experiences stress in different ways. Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+                <p class="hero__desc" aria-label="main description">Everyone experiences stress in different ways. Let
+                    Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
                 <button type="button" class="btn">Find Your Way</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" aria-label="about section">
+        <div class="container">
+            <h3 class="about__subtitle">How it works</h3>
+            <div class="about__content">
+                <h2 class="about__title">Understand & Release
+                    the stress in 3 steps</h2>
+                <p class="about__desc">Alivio offers as many journals it takes, tackling different areas such as
+                    anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become
+                    aware of your emotions, and guide you in how to manage stress.</p>
+            </div>
+
+            <div class="about__cards">
+                <figure class="card" aria-label="first card">
+                   <h4 class="card__title">Personalize</h4>
+                    <p class="card__desc">Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!</p>
+                </figure>
             </div>
         </div>
     </section>
