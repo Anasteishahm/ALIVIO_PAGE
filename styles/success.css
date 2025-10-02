@@ -1,0 +1,41 @@
+.success {
+    background-color: var(--co-dark-green);
+}
+
+.success__wrapper {
+    padding: 220px 0;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.success__content {
+    display: flex;
+    flex-direction: column;
+    place-items: start;
+}
+
+.success__title {
+    color: var(--co-white);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.success__content .btn {
+    width: 240px;
+    height: 65px;
+}
+
+.success__content-video {
+
+}
+
+.success__description {
+    color: var(--co-white);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.btn {
+}
